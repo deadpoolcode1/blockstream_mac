@@ -7,7 +7,7 @@ endif
 
 # Compiler flags
 CPP_FLAGS = -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security
-LIBS = -lzmq -pthread -lmysqlclient --std=c++11
+LIBS =  --std=c++11
 RM = rm -rf
 
 # Target definition
